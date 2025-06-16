@@ -5,10 +5,10 @@ echo "Uptime:"
 uptime
 echo ""
 echo "Disk Usage:"
-df -h /
+df -h 
 echo ""
 echo "Memory Usage:"
 free -h
 echo ""
 echo "Top 5 Memory Consuming Processes:"
-ps aux --sort=-%mem | head -n 6
+ps -ef -o %mem | head -n 6
