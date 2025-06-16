@@ -1,5 +1,5 @@
 # Support Automation Toolkit
-
+# Author : Anand Chauhan
 This toolkit includes Bash scripts to automate common application support tasks such as:
 - Log management
 - Disk usage monitoring
@@ -7,7 +7,7 @@ This toolkit includes Bash scripts to automate common application support tasks 
 - System health reporting
 
 ## Usage
-Navigate to the `scripts` directory and run the desired script with `bash script_name.sh`.
+Navigate to the `scripts` and run the desired script with `bash script_name.sh`.
 
 ## Requirements
 - Bash 4+
